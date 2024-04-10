@@ -694,6 +694,12 @@ const Home = () => {
 
     return (
         <div className='d-flex'>
+            <Card>
+                <label>Welcome the DNS Testing page!</label>
+            </Card>
+            <Card>
+                <label>-----------------------------</label>
+            </Card>
             <Card style={{ backgroundColor: "#42484C" }}>
                 <Col className="d-flex justify-content-center">
                     <Stack gap={3}>
