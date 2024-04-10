@@ -30,7 +30,7 @@ const Home = () => {
     let totalThirdHit = 0;
     let domainName = 0;
 
-    function resetVars () {
+    function resetVars() {
         setDataValues("");
         totalConnections = 0;
         totalTime = 0;
@@ -749,8 +749,12 @@ const Home = () => {
                 </Col>
             </Card>
             <Card className="m-4 p-4 d-flex" style={{ backgroundColor: "#42484C", height: "650px" }}>
-                <label>{testName}</label>
-                <label>{dataValues}</label>
+                <Card style={{ backgroundColor: "#F2F8FC" }}>
+                    <label>{testName}</label>
+                </Card>
+                <Card style={{ backgroundColor: "#F2F8FC" }}>
+                    <label>{dataValues}</label>
+                </Card>
             </Card>
         </div>
     )
